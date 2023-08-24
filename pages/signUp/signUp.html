@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blogging App || Register</title>
+    <link rel="stylesheet" href="../../css/signUp.css">
+</head>
+
+<body>
+
+    <!-- Navbar Component -->
+    <header>
+        <div class="logo-parent">
+            <a href="../../index.html" class="logo">Personal Blogging App</a>
+        </div>
+        <ul class="links">
+            <li>
+                <a href="../login/login.html">Login</a>
+            </li>
+        </ul>
+    </header>
+    <nav class="navbar">
+        <h1 class="main-heading">Sign Up</h1>
+    </nav>
+    <main>
+        <form class="login-form-container">
+            <label for="file">Select a Picture</label>
+            <input type="text" placeholder="First Name" required name="fname" id="fname">
+            <input type="text" placeholder="Last Name" required name="lname" id="lname">
+            <input type="email" placeholder="Email" required name="email" id="email">
+            <input type="password" placeholder="Password" required name="password" id="password">
+            <input type="password" placeholder="Repeat Password" required name="rpassword" id="rpassword">
+            <input type="file" style="display: none;" id="file">
+            <button>Register</button>
+        </form>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+    <script type="module" src="../../js/signUp.mjs"></script>
+</body>
+
+</html>

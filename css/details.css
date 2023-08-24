@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 100px;
+    background-color: #7749f8;
+    color: #fff;
+}
+
+header .links li a {
+    color: #fff;
+    font-size: 20px;
+}
+
+header .logo-parent .logo {
+    font-weight: 500;
+    font-size: 26px;
+    color: #fff;
+}
+
+nav {
+    width: 100%;
+    padding: 15px 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+nav .main-heading {
+    font-size: 33px;
+    color: #7749f8;
+    font-weight: 500;
+}
+
+/* main section */
+
+main {
+    width: 100%;
+    min-height: 80vh;
+    max-height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 25px 100px;
+    background-color: #f9f9f9;
+}
+
+main .heading h1 {
+    width: 100%;
+    padding: 20px 0 20px 25px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+main .blogs-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.blog {
+    background-color: #fff;
+    margin: 20px;
+    width: 800px;
+    padding: 20px 30px;
+    border-radius: 12px;
+    border: 1px solid #e9e9e9;
+}
+
+.blog .user-information {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.user-information h1 {
+    font-weight: 500;
+    font-size: 27px;
+    margin-bottom: 5px;
+}
+
+.blog .user-information .user-img img {
+    width: 60px;
+    border-radius: 10%;
+    margin-right: 20px;
+}
+
+.blog .blog-desc {
+    line-height: 25px;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.blog a {
+    color: #7749f8;
+}
+
+main .left {
+    width: 75%;
+}
+
+main .right {
+    width: 25%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    right: 40px;
+    top: 190px;
+}
+
+.right img {
+    width: 340px;
+    border-radius: 15px;
+}
+
+.right p {
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+.right h1{
+    color: #7749f8;
+    margin: 10px 0;
+    font-size: 40px;
+}
