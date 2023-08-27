@@ -10,8 +10,13 @@ async function login(e) {
     const data = await signInWithEmailAndPassword(auth, email.value,
         password.value);
     if (data) {
-        window.location.href = "../../index.html"
+        swal("Good job!", "Login Successfull!", "success").then((res) => {
+            window.location.href = "../../index.html"
+        }).catch((err) => {
+
+        })
     } else {
+        swal("Oops", "Email And Password is Wrong!", "error")
         console.log(data);
     }
 }

@@ -93,9 +93,10 @@ main .blogs-container {
     font-size: 27px;
     margin-bottom: 5px;
 }
-
 .blog .user-information .user-img img {
     width: 60px;
+    height: 60px;
+    object-fit: cover;
     border-radius: 10%;
     margin-right: 20px;
 }
@@ -129,7 +130,12 @@ main .right {
 
 .right img {
     width: 340px;
+    height: 220px;
+    object-fit: cover;
+    object-position: top;
     border-radius: 15px;
+    background-position: top;
+    top: 0;
 }
 
 .right p {

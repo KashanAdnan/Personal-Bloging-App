@@ -22,6 +22,7 @@ header {
 header .links li a {
     color: #fff;
     font-size: 20px;
+    margin-left: 20px;
 }
 
 header .logo-parent .logo {
@@ -40,4 +41,7 @@ nav {
 nav .main-heading {
     font-size: 33px;
     font-weight: 500;
+}
+body{
+    background-color: #f9f9f9;
 }
